@@ -38,7 +38,7 @@ class AutomaticshutdownPlugin(octoprint.plugin.TemplatePlugin,
                         self._automatic_shutdown_enabled = self.lastCheckBoxValue
                 
         def get_assets(self):
-                return dict(js=["js/automaticshutdown.js"])
+                return dict(js=["js/automatic_shutdown.js"])
 
         def get_template_configs(self):
                 return [dict(type="sidebar",
@@ -178,13 +178,13 @@ class AutomaticshutdownPlugin(octoprint.plugin.TemplatePlugin,
 
         def get_update_information(self):
                 return dict(
-                        automaticshutdown=dict(
+                        automatic_shutdown=dict(
                         displayName="Automatic Shutdown",
                         displayVersion=self._plugin_version,
 
                         # version check: github repository
                         type="github_release",
-                        user="OctoPrint",
+                        user="adrcunha",
                         repo="OctoPrint-AutomaticShutdown",
                         current=self._plugin_version,
 

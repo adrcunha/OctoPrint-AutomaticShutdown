@@ -18,15 +18,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.0\n"
 
-#: octoprint_automaticshutdown/static/js/automaticshutdown.js:7
+#: octoprint_automatic_shutdown/static/js/automatic_shutdown.js:7
 msgid "Shutting down in "
 msgstr "Apagando en "
 
-#: octoprint_automaticshutdown/static/js/automaticshutdown.js:9
+#: octoprint_automatic_shutdown/static/js/automatic_shutdown.js:9
 msgid "System Shutdown"
 msgstr "Apagado de Sistema"
 
-#: octoprint_automaticshutdown/templates/automaticshutdown_sidebar.jinja2:4
+#: octoprint_automatic_shutdown/templates/automatic_shutdown_sidebar.jinja2:4
 msgid "Shutdown after print finishes"
 msgstr "Apagar al finalizar impresión"
 
