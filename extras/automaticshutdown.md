@@ -9,9 +9,9 @@ license: AGPLv3
 
 date: 2015-08-27
 
-homepage: https://github.com/OctoPrint/OctoPrint-AutomaticShutdown
-source: https://github.com/OctoPrint/OctoPrint-AutomaticShutdown
-archive: https://github.com/OctoPrint/OctoPrint-AutomaticShutdown/archive/master.zip
+homepage: https://github.com/adrcunha/OctoPrint-AutomaticShutdown
+source: https://github.com/adrcunha/OctoPrint-AutomaticShutdown
+archive: https://github.com/adrcunha/OctoPrint-AutomaticShutdown/archive/master.zip
 
 follow_dependency_links: false
 
